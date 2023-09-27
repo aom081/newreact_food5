@@ -1,0 +1,76 @@
+.post {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .post-bg {
+    background-color: rgba(0, 0, 0, 0.5); /* ปรับสีเป็นสีดำทึบลง */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .post-content {
+    position: relative;
+    max-width: 800px; /* ปรับความกว้างของเนื้อหาให้ลดลง */
+    background-color: #fff; /* สีพื้นหลังของเนื้อหา */
+    padding: 20px; /* เพิ่มขอบของเนื้อหา */
+    display: flex;
+    flex-direction: column; /* เพิ่มบรรทัดนี้เพื่อให้เนื้อหาอยู่ตรงกลาง */
+    align-items: center; /* เพิ่มบรรทัดนี้เพื่อให้เนื้อหาอยู่ตรงกลาง */
+    max-width: 70%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .post-content h4 {
+    color: #333; /* สีข้อความ */
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  /* สีและสไตล์ปุ่ม */
+  .post-back-button{
+    color: #000000; /* สีของข้อความปุ่ม */
+    background-color: #05f72d; /* สีพื้นหลังของปุ่ม View */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+  .post-edit-button{
+    color: #000000; /* สีของข้อความปุ่ม */
+    background-color: #c6f705; /* สีพื้นหลังของปุ่ม Edit */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  .post-delete-button {
+    color: #fff; /* สีของข้อความปุ่ม */
+    background-color: #dc3545; /* สีพื้นหลังของปุ่ม Delete */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+  
+  /* เมื่อโฮเวอร์ปุ่ม */
+  .post-back-button:hover,
+  .post-edit-button:hover,
+  .post-delete-button:hover {
+    background-color: #555;
+  }
+  

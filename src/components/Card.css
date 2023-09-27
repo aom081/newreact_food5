@@ -1,0 +1,70 @@
+/* Card.css */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #9d2727; /* สีของหัวข้อการ์ด */
+    text-decoration: underline; /* เพิ่มขีดเส้นใต้ให้ <h5> */
+    text-decoration-color: #007bff; /* สีของขีดเส้นใต้ (สีลิงก์) */
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    color: #777; /* สีของหัวข้อย่อย */
+}
+
+.card-text {
+    color: #444; /* สีของเนื้อหาการ์ด */
+}
+
+.card-link {
+    color: #007bff; /* สีของลิงก์ในการ์ด */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.Card-view-button {
+    color: #000000; /* สีของข้อความปุ่ม */
+    background-color: #05f72d; /* สีพื้นหลังของปุ่ม View */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.Card-edit-button {
+    color: #000000; /* สีของข้อความปุ่ม */
+    background-color: #c6f705; /* สีพื้นหลังของปุ่ม Edit */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+/* สไตล์ปุ่ม Delete */
+.Card-delete-button {
+    color: #fff; /* สีของข้อความปุ่ม */
+    background-color: #dc3545; /* สีพื้นหลังของปุ่ม Delete */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.card-buttons {
+    margin-top: 20px;
+}
